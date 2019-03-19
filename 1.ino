@@ -10,9 +10,9 @@ DallasTemperature DS18B20(&oneWire);
 float prevTemp = 0;
 
 const char* server = "api.thingspeak.com";
-String apiKey ="thingspeak API";  //should be changed!!!
-const char* MY_SSID = "wifi SSID";     //should be changed!!!
-const char* MY_PWD = "wifi pwd";   //should be changed!!!
+String apiKey ="thingspeak API";      //should be changed!!!
+const char* MY_SSID = "wifi SSID";    //should be changed!!!
+const char* MY_PWD = "wifi pwd";      //should be changed!!!
 int sent = 0;
 
 void setup() {
@@ -76,3 +76,4 @@ void sendTeperatureTS(float temp)
    sent++;
  client.stop();
 }//end send
+
