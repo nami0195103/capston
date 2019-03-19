@@ -1,4 +1,4 @@
-# capston
+# Capstone Design 1
 
 
 ## 1st assignment -> 1.ino
