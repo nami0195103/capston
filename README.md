@@ -1,5 +1,5 @@
 # Capstone Design 1
-<br/><br/>
+<br/>
 ### 1st assignment
 1.ino : connect ESP8266 with DS18B20. Data is managed by thingspeak.<br/>
 <br/>
